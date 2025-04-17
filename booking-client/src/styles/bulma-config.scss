@@ -1,0 +1,12 @@
+// Set your brand colors
+$primary: #3273dc;
+$primary-light: findLightColor($primary);
+$primary-dark: findDarkColor($primary);
+$primary-invert: findColorInvert($primary);
+
+// Update Bulma's global variables
+$family-sans-serif: "Nunito", sans-serif;
+$family-primary: $family-sans-serif;
+
+// Import Bulma and Bulma extensions
+@import "~bulma/bulma.sass";
